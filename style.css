@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+.main{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/021/745/166/non_2x/aesthetic-blue-brown-pastel-blob-liquid-fluid-shape-boho-and-floral-leaves-abstract-style-template-background-vector.jpg);
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: none;
+    height: 150vh;
+    position: relative;
+}
+nav{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(10, 8, 8);
+    font-weight:900;
+    background-color: rgb(56, 157, 197);
+    font-size: 5vh;
+    border: 2px solid black;
+}
+.box{
+    border: 2px solid black;
+    height: 140vh;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 153, 211);
+    position: relative;
+    left: 18vw;
+    top: 4Vh;
+}
+.box .container{
+    border: 2px solid rgb(17, 16, 16);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(14, 13, 13);
+    height: 20vh;
+    width: 55vw;
+    padding:6px;
+    margin: 4px;
+    position: relative;
+
+    left: 4vw;
+    /* display: flex;
+    flex-direction: row; */
+    background-color: antiquewhite;
+    overflow: scroll;
+    
+
+}
+@media only screen and (min-width:640px) {
+    .container ul li{
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width:640px) {
+    .contaniner ul li{
+        flex-direction: column;
+        overflow: scroll;
+        
+    }
+.main{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/021/745/166/non_2x/aesthetic-blue-brown-pastel-blob-liquid-fluid-shape-boho-and-floral-leaves-abstract-style-template-background-vector.jpg);
+        background-position: center center;
+        background-size: max(1200px,100vw);
+        background-repeat: none;
+        height: 150vh;
+        position: relative;
+    }
+}
+
+.container ul li{
+    border: 2px solid black;
+    box-shadow: 0 0 30px rgb(101, 151, 218);
+    margin: 2px;
+    align-items:center;
+    justify-content:center;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    /* position: relative;
+    
+    padding: 20px;
+    top:12vh; */
+    padding: 10px;
+    float:right;
+    top:4vh; 
+    position: relative;
+}
